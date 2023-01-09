@@ -16,9 +16,3 @@ public class _01Estaturas {
             estatura[i]=Double.parseDouble(JOptionPane.showInputDialog(null, "Introduce la estatura "+(i+1)+":"));
             i++;
         }
-
-        for(int j=0; j<cantidad;j++){
-            valores+="Persona "+(j+1)+": "+estatura[j]+" m\n";
-        } JOptionPane.showMessageDialog(null, valores);
-    }
-}
